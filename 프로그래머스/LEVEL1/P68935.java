@@ -1,4 +1,4 @@
-package 프로그래머스;
+package 프로그래머스.LEVEL1;
 
 public class P68935 {
     public static void main(String[] args) {
