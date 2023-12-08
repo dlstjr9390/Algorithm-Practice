@@ -1,4 +1,4 @@
-package 프로그래머스;
+package 프로그래머스.LEVEL1;
 
 // https://school.programmers.co.kr/learn/courses/30/lessons/142086
 
