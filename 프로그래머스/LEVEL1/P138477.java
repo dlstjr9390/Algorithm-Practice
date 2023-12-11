@@ -11,7 +11,7 @@ public class P138477 {
         int k =3;
         int[] score = {100,30,40,150,300,200,200};
         int[] result = sol.solution(k,score);
-        System.out.println(Arrays.toString(result));
+        System.out.println(Arrays.toString(result)); // [100, 30, 30, 40, 100, 150, 200]
     }
     static class Solution {
         public int[] solution(int k, int[] score) {
