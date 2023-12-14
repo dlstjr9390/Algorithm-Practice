@@ -1,5 +1,7 @@
 package 프로그래머스.LEVEL1;
 
+// https://school.programmers.co.kr/learn/courses/30/lessons/12922
+
 public class P12922 {
     public static void main(String[] args) {
         Solution sol = new Solution();
