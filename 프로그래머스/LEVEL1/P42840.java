@@ -23,25 +23,28 @@ public class P42840 {
             int[] person1 = {1,2,3,4,5};
             int[] person2 = {2,1,2,3,2,4,2,5};
             int[] person3 = {3,3,1,1,2,2,4,4,5,5};
+            int score1 = 0;
+            int score2 = 0;
+            int score3 = 0;
             for(int i=0;i<answers.length;i++){
                 if(answers[i] == person1[i % person1.length]){
-                    answer[0]++;
+                    score1++;
                 }
                 if(answers[i] == person2[i % person2.length]){
-                    answer[1]++;
+                    score2++;
                 }
                 if(answers[i] == person3[i % person3.length]){
-                    answer[2]++;
+                    score3++;
                 }
             }
-            int max = Math.max(Math.max(answer[0],answer[1]),answer[2]);
-            if(max == answer[0]){
+            int max = Math.max(Math.max(score1,score2),score3);
+            if(max == score1){
                 highScorer.add(1);
             }
-            if(max == answer[1]){
+            if(max == score2){
                 highScorer.add(2);
             }
-            if(max == answer[2]){
+            if(max == score3){
                 highScorer.add(3);
             }
             int[] result = new int[highScorer.size()];
