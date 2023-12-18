@@ -19,7 +19,7 @@ public class P77484 {
         public int[] solution(int[] lottos, int[] win_nums) {
             int[] answer = new int[2];
             int min = 0;
-            int zeroNum = 0;
+            int zeroCnt = 0;
 
             Arrays.sort(lottos);
             Arrays.sort(win_nums);
@@ -31,10 +31,10 @@ public class P77484 {
                         }
                     }
                 } else{
-                    zeroNum++;
+                    zeroCnt++;
                 }
             }
-            int max = min + zeroNum;
+            int max = min + zeroCnt;
             answer[0] = 7 - max;
             answer[1] = 7 - min;
             if(answer[0] > 6){
