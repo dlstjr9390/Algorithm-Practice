@@ -21,7 +21,6 @@ public class P161990 {
                     answer[0] = i;
                     for(int j=0; j<wallpaper[i].length(); j++){
                         if(wallpaper[i].charAt(j) == '#'){
-
                         }
                     }
                 }
